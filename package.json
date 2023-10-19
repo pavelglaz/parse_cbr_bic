@@ -1,0 +1,26 @@
+{
+  "name": "parser_cbr_bic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "lint": "eslint . --fix && prettier --write \"**/*.js\" \"**/*.json\"",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "18 || 20"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "iconv-lite": "^0.6.3",
+    "js-yaml": "^4.1.0",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "prettier": "^3.0.3"
+  }
+}
